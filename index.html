@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+    <script defer src="bundle.js"></script></head>
+    <body>
+        <div class="container">
+            <div class="header">Weather App</div>
+            <div class="content">
+                <p>Enter a city name to get the weather forecast</p>
+                <form id="getCityForm" action="" method="post">
+                    <input type="text" name="city" id="city" placeholder="Enter a city name" />
+                    <button type="submit">Get Weather</button>
+                </form>
+                <div class="hidden" id="weatherContainer"></div>
+            </div>
+            <div class="footer">
+                Created by &nbsp;
+                <a href="https://github.com/leo-tsant" target="_blank">Leonidas Tsantarliotis</a>&nbsp;for &nbsp;
+                <a href="https://www.theodinproject.com/dashboard" target="_blank"> The Odin Project</a>
+            </div>
+        </div>
+    </body>
+</html>
