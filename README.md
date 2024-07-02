@@ -1,7 +1,7 @@
 # Weather-App
 
 Live Demo:  
-https://leo-tsant.github.io/Weather-App/
+https://leo-tsant.github.io/weather-app/
 
 ![Project Screenshot](./src/Images/weather-app.png)
 
